@@ -8,12 +8,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["item 1", "item2", "item3", "item4"]
-  arrayarray << "item5"
+  array << "item5"
 end
 
 def add_element_to_start_of_array(array, element)
   array = ["item 1", "item2", "item3", "item4"]
-  arrayy.unshift("item0")
+  array.unshift("item0")
 end
 
 def remove_element_from_end_of_array(array)
