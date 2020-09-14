@@ -28,15 +28,15 @@ end
 
 def retrieve_element_from_index(array, index_number)
   ["item1", "item2", "item3", "item4"]
-  retrieve_element_from_index[1]
+  array
 end
 
 def retrieve_first_element_from_array(array)
-  ["item1", "item2", "item3", "item4"]
-  retrieve_first_element_from_array[0]
+  array = ["item 1", "item2", "item3", "item4"]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  ["item1", "item2", "item3", "item4"]
-  retrieve_last_element_from_array[-1]
+  array = ["item1", "item2", "item3", "item4"]
+  array[-1]
 end
